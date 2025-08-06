@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Aplicaciones</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Catálogo de Aplicaciones</h1>
+
+  <div class="filters">
+    <button onclick="filterApps('all')">Todas</button>
+    <button onclick="filterApps('negocios')">Negocios</button>
+    <button onclick="filterApps('operaciones')">Operaciones</button>
+    <button onclick="filterApps('informatica')">Informática</button>
+  </div>
+
+  <div class="app-list">
+    <div class="app-item negocios">
+      <a href="https://navision.example.com" target="_blank">Navision</a>
+    </div>
+    <div class="app-item negocios">
+      <a href="https://portal-facturas.example.com" target="_blank">Portal Facturas</a>
+    </div>
+    <div class="app-item operaciones">
+      <a href="https://blocks.example.com" target="_blank">Blocks</a>
+    </div>
+    <div class="app-item informatica">
+      <a href="https://prtg.example.com" target="_blank">PRTG</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
