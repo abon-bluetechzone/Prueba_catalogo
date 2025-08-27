@@ -25,7 +25,7 @@ body {
   flex: 0 0 250px;
 }
 .card {
-  height: 300px; /* altura fija */
+  height: 150px; /* altura fija */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
