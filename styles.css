@@ -22,9 +22,13 @@ body {
   margin-top: 20px;
 }
 .app-item {
-  flex: 1 1 250px;
+  flex: 0 0 250px;
 }
 .card {
+  height: 300px; /* altura fija */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
